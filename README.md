@@ -15,12 +15,19 @@ file reference: retiring_titles.csv
 ![Emp_title_birth](https://user-images.githubusercontent.com/115188500/207109337-ffbe0156-22fa-4863-8165-0589292b0bb0.png)
 
 
-2. Further filtering using Distinct by creating a new table to sort through current employees and counting the occurance of unique titles. We can see that there are 7 unique titles with their count of employees.
+2. Further filtering using Distinct by creating a new table to sort through current employees and counting the occurance of unique titles. 
+
+- The table below shows that there are 7 unique titles
+- The senior engineer title category contains the most number of employees ready to retire
+- The manager title category contains the least number of employees ready to retire
+- Total number of employees ready to retire: 46,542
 
 ![Emp_unique_title_count](https://user-images.githubusercontent.com/115188500/207110360-3f6b1e68-72ac-4e7f-afc3-63cc59d5e5fb.png)
 
 
 3. Created a new table: unique_titles to sort in ascending order by employee number and descending order by the last date of the most recent title.
+
+- From this table we can determine that 2382 employees are eligble for the mentorship program
 
 ![Emp_unique_title_list](https://user-images.githubusercontent.com/115188500/207110307-1021633e-f92b-4d16-a646-0a950dfa49ce.png)
 
